@@ -1,0 +1,36 @@
+.wrapper{
+    padding:2%;     
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;    
+}
+
+.header{    
+    background-color: #959595;     
+}
+
+.header__logo{
+    /* padding:10px; */
+    font-size: 35px;
+    color: white !important;
+    text-decoration: none;  
+}
+
+.header__links{
+    display:flex; 
+    margin-left: auto;
+    font-size: 20px;    
+}
+
+.header__links > *{
+    flex: 1 0 0;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    text-decoration: none;
+}
+
+.header__links > *:hover{    
+    color: #009EDB !important;
+    text-decoration: underline;
+}
